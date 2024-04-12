@@ -8,4 +8,4 @@
 
 ## How Does it Work?
 The sequence of HTTPS messages and response is explained in the diagram below
-![Alt text](relative%20path/to/to2t_sequence.png)
+![Alt text](to2t_sequence.png)
