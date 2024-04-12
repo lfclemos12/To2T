@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tip of the Tongue</title>
+		<style>
+			body, form{
+				margin: 0 auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#ml{
+				flex-grow:100;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Tip of the Tongue</h1>
+		<form action="search" method="get">
+			<fieldset>
+				<label for="ml">Meaning Like:</label>
+				<input id="ml" name="ml" type="text" />
+				<input type="submit" value="Search" />
+			</fieldset>
+		</form>
+	</body>
+</html>
